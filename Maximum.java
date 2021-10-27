@@ -12,7 +12,7 @@ public class Maximum {
 		
 		
 		 int d=(a>b)?(a>c?a:c):(b>c?b:c); 
-		System.out.println("Max of 3 number="+""+e);
+		System.out.println("Max of 3 number="+""+d);
 		
     sn.close();
 	}
