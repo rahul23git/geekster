@@ -10,8 +10,8 @@ public class Maximum {
 		int b=sn.nextInt();
 		int c=sn.nextInt();
 		
-		int d=(a>b)?a:b;
-		int e=(d>c)?d:c;
+		
+		 int d=(a>b)?(a>c?a:c):(b>c?b:c); 
 		System.out.println("Max of 3 number="+""+e);
 		
     sn.close();
